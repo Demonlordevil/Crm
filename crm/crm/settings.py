@@ -129,5 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL='static/'
 
+ALLOWED_HOSTS = ['demonlord.pythonanywhere.com']
 
 STATICFILES_DIRS = [BASE_DIR / 'static']
